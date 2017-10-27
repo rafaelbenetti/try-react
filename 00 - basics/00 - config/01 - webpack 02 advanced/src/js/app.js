@@ -8,7 +8,10 @@ import ReactDOM from 'react-dom';
 class Title extends React.Component {
     render() {
         return (
-            <h1>Hello, React + Webpack</h1>
+            <div>
+                <h1>Hello, React + Webpack</h1>
+                <img src={require('../images/pickle-rick.jpg')} />
+            </div>            
         );
     }
 }

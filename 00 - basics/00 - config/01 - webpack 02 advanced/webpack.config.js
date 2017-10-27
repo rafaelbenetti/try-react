@@ -8,6 +8,16 @@
     const root = `${__dirname}/src/`;
     const dist = `${root}/dist`;
 
+    const isProd = process.env.NODE_ENV === 'production';
+    const cssDev = ['style-loader', 'css-loader', 'sass-loader'];
+    const cssProd = ExtractTextPlugin.extract({
+        fallback: 'style-loader',
+        use: ['css-loader', 'sass-loader'],
+        publicPath: dist
+    });
+
+    const cssConfig = isProd ? cssProd : cssDev;
+
     module.exports = {
         entry: {
             app: `${root}/js/app.js`,
@@ -20,12 +30,19 @@
         module: {
             rules: [{
                     test: /\.scss$/,
-                    use: ['style-loader', 'css-loader', 'sass-loader']
+                    use: cssConfig
                 },
                 {
                     test: /\.js$/,
                     exclude: /node_modules/,
                     use: 'babel-loader'
+                },
+                {
+                    test: /\.(jpe?g|png|gif|svg)$/i,
+                    use: [
+                        'file-loader?name=images/[name].[ext]',
+                        'image-webpack-loader'
+                    ]
                 }
             ]
         },
@@ -50,7 +67,7 @@
             }),
             new ExtractTextPlugin({
                 filename: 'style.min.css',
-                disable: true,
+                disable: !isProd,
                 allChunks: true
             }),
             new webpack.HotModuleReplacementPlugin(),

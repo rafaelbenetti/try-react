@@ -13,9 +13,13 @@
     + Multi Html templates 
     + delete files to prod (rimraf)
     + Hot module replacement 
+    + Load images
 
 ## Basic Examples
 
  - [Hello World](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/01%20-%20hello%20world/app.js)
+    + Simple example of react componente.
  - [Props](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/02%20-%20props/app.js)
+    + How to pass data by attributes.
  - [State](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/03%20-%20state/app.js)
+    + How to keep data using state.
