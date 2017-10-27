@@ -9,7 +9,7 @@ class Title extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hello, React + Webpack</h1>
+                <h1>I am PICKLE RICK!!!</h1>
                 <img src={require('../images/pickle-rick.jpg')} />
             </div>            
         );

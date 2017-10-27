@@ -1,4 +1,4 @@
-# try-react
+# Try React
  Project to learn how to configure and work with react apps. In this project I will keep all the examples and exercises during my learning path.
 
 ## Basic Configuration
@@ -18,7 +18,7 @@
 ## Basic Examples
 
  - [Hello World](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/01%20-%20hello%20world/app.js)
-    + Simple example of react componente.
+    + Simple example of react component.
  - [Props](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/02%20-%20props/app.js)
     + How to pass data by attributes.
  - [State](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/03%20-%20state/app.js)
