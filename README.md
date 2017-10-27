@@ -17,4 +17,5 @@
 ## Basic Examples
 
  - [Hello World](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/01%20-%20hello%20world/app.js)
- - [Using props](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/01%20-%20hello%20world/app.js)
+ - [Props](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/02%20-%20props/app.js)
+ - [State](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/03%20-%20state/app.js)
