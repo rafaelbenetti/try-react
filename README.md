@@ -25,5 +25,12 @@
     + How to keep data using state.
  - [Import/Export](https://github.com/rafaelbenetti/try-react/tree/master/00%20-%20basics/04%20-%20import%20and%20export)
     + How to import and export components in separated files.
- - [PropTypes](https://github.com/rafaelbenetti/try-react/tree/master/00%20-%20basics/04%20-%20import%20and%20export)
+ - [PropTypes](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/05%20-%20propTypes/app.js)
     + How to validade your component's attributes data types.
+ - [Loop](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/06%20-%20loops/app.js)
+    + How to create a loop in jsx.
+
+## Intermediate Examples
+
+ - [State](https://github.com/rafaelbenetti/try-react)
+    + How to manipulate state (create, set, delete).
