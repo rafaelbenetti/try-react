@@ -17,9 +17,13 @@
 
 ## Basic Examples
 
- - [Hello World](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/01%20-%20hello%20world/app.js)
+ - [Hello World](https://github.com/rafaelbenetti/try-react/tree/master/00%20-%20basics/01%20-%20hello%20world)
     + Simple example of react component.
  - [Props](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/02%20-%20props/app.js)
     + How to pass data by attributes.
  - [State](https://github.com/rafaelbenetti/try-react/blob/master/00%20-%20basics/03%20-%20state/app.js)
     + How to keep data using state.
+ - [Import/Export](https://github.com/rafaelbenetti/try-react/tree/master/00%20-%20basics/04%20-%20import%20and%20export)
+    + How to import and export components in separated files.
+ - [PropTypes](https://github.com/rafaelbenetti/try-react/tree/master/00%20-%20basics/04%20-%20import%20and%20export)
+    + How to validade your component's attributes data types.
